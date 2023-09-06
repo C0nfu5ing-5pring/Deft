@@ -1,0 +1,138 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/**Header section**/
+
+header {
+    position: static;
+}
+
+div.hdr {
+    font-weight: 500;
+    background-color: black;
+    color: black;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-h2 {
+        margin-left: 50px;
+    }
+}
+
+
+span.d {
+    color: #EB5353;
+}
+
+span.e {
+    color: #F9D923;
+}
+
+span.f {
+    color: #36AE7C;
+}
+
+span.t {
+    color: #187498;
+}
+
+.header-h2 {
+    cursor: not-allowed;
+    color: white;
+}
+
+.button1:hover {
+    border-radius: 15px 50px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.button2:hover {
+    border-radius: 15px 50px;
+    background-color: #EB5353;
+    color: black;
+    font-weight: 600;
+}
+
+
+.button3:hover {
+    border-radius: 15px 50px;
+    background-color: #F9D923;
+    color: black;
+    font-weight: 600;
+}
+
+
+.button4:hover {
+    border-radius: 15px 50px;
+    background-color: #36AE7C;
+    color: black;
+    font-weight: 600;
+}
+
+
+.button5:hover {
+    border-radius: 15px 50px;
+    background-color: #187498;
+    color: black;
+    font-weight: 600;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    color: white;
+    font-weight: 400;
+}
+
+/**Marquee Text**/
+.marquee-text {
+    background-color: #36AE7C;
+    padding: 0;
+    margin: 0;
+}
+
+/**Main Tntroduction Div**/
+
+.background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.main-h1-one {
+    color: white;
+}
+
+.text-main-one {
+    color: white;
+}
+
+.work-button:hover {
+    background-color: #198754;
+    color: black;
+    border: #198754 1px solid;
+    border-radius: 15px 50px;
+}
