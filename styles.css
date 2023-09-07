@@ -92,42 +92,25 @@ span.t {
     font-weight: 400;
 }
 
-/**Marquee Text**/
-.marquee-text {
-    background-color: #36AE7C;
-    padding: 0;
-    margin: 0;
-}
-
 /**Main Tntroduction Div**/
 
-.background-video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
-@media (min-aspect-ratio:16/9) {
-    .background-video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9) {
-    .background-video {
-        width: auto;
-        height: 100%;
-    }
+div.introduction {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-h1-one {
     color: white;
 }
 
-.text-main-one {
-    color: white;
+.gradient-text {
+    background: linear-gradient(to top right, #EB5353, #F9D923, #36AE7C, #187498);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .work-button:hover {
