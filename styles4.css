@@ -2,7 +2,6 @@ body {
     background-color: black;
     height: 90vh;
     font-family: 'Satoshi', sans-serif;
-    cursor: grab;
     overflow-x: hidden;
 }
 
@@ -228,7 +227,6 @@ div.cross {
     overflow: hidden;
     color: #c4b0b0cc;
     text-align: center;
-    /* Center-align text */
 }
 
 .service-3-h1 {
