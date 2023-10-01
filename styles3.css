@@ -2,7 +2,6 @@ body {
     background-color: black;
     height: 90vh;
     font-family: 'Satoshi', sans-serif;
-    cursor: grab;
     overflow-x: hidden;
 }
 
