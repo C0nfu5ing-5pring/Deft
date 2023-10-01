@@ -2,7 +2,6 @@ body {
     background-color: black;
     height: 90vh;
     font-family: 'Satoshi', sans-serif;
-    cursor: grab;
     overflow-x: hidden;
 }
 
@@ -100,16 +99,26 @@ div.cross {
 /**Information**/
 
 .tagline {
-    margin: 40px 0 40px 0;
+    margin-top: 50px;
     text-align: center;
-    color: #eb5454;
-    font-weight: 600;
-    font-size: 40px;
-    transition: text-shadow .6s ease-in-out;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #f9cd38, #ff6b6b, #6bcb6b, #6bcaff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: moveGradient 3s linear infinite;
 }
 
-.tagline:hover {
-    text-shadow: 0 0 30px #A80D2A;
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 /**Info-paragraph**/
@@ -161,16 +170,26 @@ div.cross {
 
 /**Featured Container & featured-text**/
 .heading {
-    margin: 40px 0 0 0;
+    margin-top: 50px;
     text-align: center;
-    color: #1d779a;
-    font-weight: 600;
-    font-size: 40px;
-    transition: text-shadow .6s ease-in-out;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 60px;
+    background: linear-gradient(90deg, #f9cd38, #ff6b6b, #6bcb6b, #6bcaff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: moveGradient 3s linear infinite;
 }
 
-.heading:hover {
-    text-shadow: 0 0 30px #0047ab;
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 .features-heading {
@@ -297,7 +316,7 @@ div.cross {
 }
 
 .feature-3:hover h4 {
-    color: greenyellow;
+    color: #adff2f;
 }
 
 .feature-3 p {
