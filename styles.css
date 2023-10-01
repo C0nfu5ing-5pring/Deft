@@ -2,32 +2,13 @@ body {
     background-color: black;
     height: 90vh;
     font-family: 'Satoshi', sans-serif;
-    cursor: grab;
 }
 
 a {
     text-decoration: none;
     margin-bottom: 20px;
     transition: text-shadow .6s ease-in-out;
-}
-
-/**Cross**/
-div.cross {
-    margin-top: 10px;
-}
-
-/**Cross-icon**/
-.cross-icon {
-    position: absolute;
-    right: 20px;
-    margin: 10px;
-    color: white;
-    transition: all .5s ease-in-out;
-}
-
-.cross-icon:hover {
-    color: #eb5454;
-    transform: rotate(90deg);
+    font-size: 40px;
 }
 
 /**Pinnacle**/
@@ -45,7 +26,7 @@ h1.company-name {
     margin-bottom: 20px;
     color: white;
     font-family: 'Clash Display', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 800;
     font-weight: 800;
     text-align: center;
@@ -124,4 +105,12 @@ a.contact {
 
 a.contact:hover {
     text-shadow: 0 0 30px #1d779a;
+}
+
+/*Copyright*/
+
+.copyright {
+    text-align: center;
+    font-family: 'Clash Display', sans-serif;
+    color: #777;
 }
