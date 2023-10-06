@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    height: 90vh;
+    font-family: 'Satoshi', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: text-shadow .6s ease-in-out;
+    font-size: 40px;
+}
+
+
+/*Load Animation*/
+
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1.25s;
+    transform: translateX(-1.25%);
+}
+
+.appear {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        display: none;
+    }
+}
+
+/**Pinnacle**/
+div.pinnacle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    text-align: center;
+}
+
+/**Company-name**/
+h1.company-name {
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(90deg, #f9cd38, #eb5454, #44b485, #1d779a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientText 8s linear infinite;
+}
+
+@keyframes gradientText {
+    0% {
+        color: #f9cd38;
+    }
+
+    25% {
+        color: #eb5454;
+    }
+
+    50% {
+        color: #44b485;
+    }
+
+    75% {
+        color: #1d779a;
+    }
+
+    100% {
+        color: #f9cd38;
+    }
+}
+
+.company-name {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(90deg, #f9cd38, #eb5454, #44b485, #1d779a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientText 4s linear infinite;
+}
+
+/**All anchor tags**/
+a.home {
+    color: #f9cd38;
+    font-weight: 600;
+}
+
+a.home:hover {
+    text-shadow: 0 0 30px #f9cd38;
+}
+
+a.about {
+    color: #eb5454;
+    font-weight: 600;
+}
+
+a.about:hover {
+    text-shadow: 0 0 30px #eb5454;
+}
+
+a.services {
+    color: #44b485;
+    font-weight: 600;
+}
+
+a.services:hover {
+    text-shadow: 0 0 30px #44b485;
+}
+
+a.contact {
+    color: #1d779a;
+    font-weight: 600;
+}
+
+a.contact:hover {
+    text-shadow: 0 0 30px #1d779a;
+}
+
+/*Copyright*/
+
+.copyright {
+    text-align: center;
+    font-family: 'Clash Display', sans-serif;
+    color: #777;
+}
