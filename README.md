@@ -5,7 +5,7 @@ Explore our WooCommerce website repository! 🌐 Crafted with HTML, CSS, and Boo
 ## How to Use
 
 1. **Clone or Download:**
-   - Clone: `git clone https://github.com/your-username/DEFT-WooCommerce.git`
+   - Clone: `git clone https://github.com/c0nfu5ing-5pring/DEFT-WooCommerce.git`
    - Download: Use GitHub's download option.
 
 2. **Customize:**
